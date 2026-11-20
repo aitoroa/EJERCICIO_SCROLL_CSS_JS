@@ -12,7 +12,9 @@
 */
 
 const lenis = new Lenis({
-  autoRaf: true,
-  lerp: 0.1,
-  anchors: { offset: -80 },
+   autoRaf: true, //Se activa el bucle de animación interno de Lenis
+   lerp: 0.1, //Suavidad del scroll entre 0 y 1
+   anchors: {
+      offset: -60
+   } // El scroll a las secciones deja hueco a la cabecera
 });
